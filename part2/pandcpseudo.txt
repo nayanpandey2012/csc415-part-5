@@ -1,0 +1,53 @@
+
+int buffer[BUFFER_SIZE];
+semaphore mutex = 1;
+semaphore fillCount = 0;
+semaphore emptyCount = BUFFER_SIZE;
+
+main {
+    buffer = malloc(BUFFER_SIZE);
+
+    sem_init(fillCount);
+    sem_init(emptyCo, slots);
+    pthread_mutex_init(mutex);
+    tid = malloc(Producer + Consumer);
+
+    spawn_Threads() {
+        producer(tid);
+        consumer(tid);
+    };
+
+    sem_destroy(fillCount);
+    sem_destroy(emptyCount);
+    pthread_mutex_destroy(mutex);
+    free(buffer);
+    free(tid);
+}
+
+producer {
+    while (true) {
+        item = produceItem();
+
+        wait(emptyCount);
+        lock(mutex);
+
+        putItemIntoBuffer(item);
+
+        unlock(mutex);
+        signal(fillCount);
+    }
+}
+
+consumer {
+    while (true) {
+        wait(fillCount);
+        lock(mutex);
+
+        item = removeItemFromBuffer();
+
+        unlock(mutex);
+        wait(emptyCount);
+
+        consumeItem(item);
+    }
+}

@@ -1,0 +1,345 @@
+./pandc 7 7 9 15 1 1
+Current time: Sat Aug 10 13:24:40 2019
+
+
+
+
+                        Number of Buffers:   7
+                      Number of Producers:   7
+                      Number of Consumers:   9
+Number of items Produced by each producer:  15
+Number of items Consumed by each consumer:  11
+                         Over consume on?:   1
+                      Over consume amount:   6
+     Time each Producer Sleeps (seconds) :   1
+     Time each Consumer Sleeps (seconds) :   1
+  1  was produced by producer->       7
+  1  was consumed by consumer->       1
+  2  was produced by producer->       5
+  2  was consumed by consumer->       2
+  3  was produced by producer->       5
+  3  was consumed by consumer->       3
+  4  was produced by producer->       5
+  4  was consumed by consumer->       4
+  5  was produced by producer->       7
+  5  was consumed by consumer->       5
+  6  was produced by producer->       7
+  6  was consumed by consumer->       6
+  7  was produced by producer->       7
+  8  was produced by producer->       6
+  8  was consumed by consumer->       8
+  9  was produced by producer->       4
+  9  was consumed by consumer->       9
+ 10  was produced by producer->       6
+ 10  was consumed by consumer->       1
+  7  was consumed by consumer->       7
+ 11  was produced by producer->       6
+ 11  was consumed by consumer->       2
+ 12  was produced by producer->       3
+ 12  was consumed by consumer->       3
+ 13  was produced by producer->       3
+ 13  was consumed by consumer->       4
+ 14  was produced by producer->       5
+ 14  was consumed by consumer->       5
+ 15  was produced by producer->       6
+ 15  was consumed by consumer->       6
+ 16  was produced by producer->       6
+ 16  was consumed by consumer->       8
+ 17  was produced by producer->       6
+ 17  was consumed by consumer->       9
+ 18  was produced by producer->       5
+ 18  was consumed by consumer->       1
+ 19  was produced by producer->       5
+ 19  was consumed by consumer->       7
+ 20  was produced by producer->       5
+ 20  was consumed by consumer->       2
+ 21  was produced by producer->       6
+ 21  was consumed by consumer->       3
+ 22  was produced by producer->       1
+ 22  was consumed by consumer->       4
+ 23  was produced by producer->       1
+ 23  was consumed by consumer->       5
+ 24  was produced by producer->       5
+ 24  was consumed by consumer->       6
+ 25  was produced by producer->       6
+ 25  was consumed by consumer->       8
+ 26  was produced by producer->       3
+ 26  was consumed by consumer->       9
+ 27  was produced by producer->       1
+ 28  was produced by producer->       2
+ 28  was consumed by consumer->       7
+ 29  was produced by producer->       4
+ 29  was consumed by consumer->       2
+ 30  was produced by producer->       7
+ 30  was consumed by consumer->       3
+ 27  was consumed by consumer->       1
+ 31  was produced by producer->       7
+ 31  was consumed by consumer->       4
+ 32  was produced by producer->       7
+ 32  was consumed by consumer->       5
+ 33  was produced by producer->       7
+ 33  was consumed by consumer->       6
+ 34  was produced by producer->       5
+ 34  was consumed by consumer->       8
+ 35  was produced by producer->       5
+ 35  was consumed by consumer->       9
+ 36  was produced by producer->       3
+ 36  was consumed by consumer->       7
+ 37  was produced by producer->       7
+ 37  was consumed by consumer->       2
+ 38  was produced by producer->       6
+ 38  was consumed by consumer->       3
+ 39  was produced by producer->       5
+ 39  was consumed by consumer->       1
+ 40  was produced by producer->       3
+ 40  was consumed by consumer->       4
+ 41  was produced by producer->       7
+ 42  was produced by producer->       2
+ 42  was consumed by consumer->       6
+ 43  was produced by producer->       7
+ 43  was consumed by consumer->       8
+ 44  was produced by producer->       2
+ 44  was consumed by consumer->       9
+ 41  was consumed by consumer->       5
+ 45  was produced by producer->       2
+ 45  was consumed by consumer->       7
+ 46  was produced by producer->       2
+ 46  was consumed by consumer->       2
+ 47  was produced by producer->       2
+ 47  was consumed by consumer->       3
+ 48  was produced by producer->       2
+ 48  was consumed by consumer->       1
+ 49  was produced by producer->       2
+ 49  was consumed by consumer->       4
+ 50  was produced by producer->       2
+ 50  was consumed by consumer->       6
+ 51  was produced by producer->       6
+ 51  was consumed by consumer->       8
+ 52  was produced by producer->       6
+ 52  was consumed by consumer->       9
+ 53  was produced by producer->       3
+ 53  was consumed by consumer->       5
+ 54  was produced by producer->       2
+ 54  was consumed by consumer->       7
+ 55  was produced by producer->       5
+ 55  was consumed by consumer->       2
+ 56  was produced by producer->       5
+ 56  was consumed by consumer->       3
+ 57  was produced by producer->       3
+ 57  was consumed by consumer->       1
+ 58  was produced by producer->       2
+ 58  was consumed by consumer->       4
+ 59  was produced by producer->       6
+ 59  was consumed by consumer->       6
+ 60  was produced by producer->       6
+ 60  was consumed by consumer->       8
+ 61  was produced by producer->       3
+ 61  was consumed by consumer->       9
+ 62  was produced by producer->       2
+ 62  was consumed by consumer->       5
+ 63  was produced by producer->       2
+ 63  was consumed by consumer->       7
+ 64  was produced by producer->       6
+ 64  was consumed by consumer->       2
+ 65  was produced by producer->       3
+ 65  was consumed by consumer->       3
+ 66  was produced by producer->       3
+ 66  was consumed by consumer->       1
+ 67  was produced by producer->       2
+ 67  was consumed by consumer->       4
+ 68  was produced by producer->       6
+ 68  was consumed by consumer->       6
+ 69  was produced by producer->       5
+ 69  was consumed by consumer->       8
+ 70  was produced by producer->       3
+ 70  was consumed by consumer->       9
+ 71  was produced by producer->       2
+ 71  was consumed by consumer->       5
+ 72  was produced by producer->       4
+ 72  was consumed by consumer->       7
+ 73  was produced by producer->       1
+ 74  was produced by producer->       1
+ 75  was produced by producer->       1
+ 75  was consumed by consumer->       1
+ 76  was produced by producer->       1
+ 76  was consumed by consumer->       4
+ 77  was produced by producer->       1
+ 77  was consumed by consumer->       3
+ 78  was produced by producer->       7
+ 78  was consumed by consumer->       8
+ 79  was produced by producer->       7
+ 79  was consumed by consumer->       9
+ 80  was produced by producer->       7
+ 80  was consumed by consumer->       5
+ 81  was produced by producer->       7
+ 81  was consumed by consumer->       7
+ 82  was produced by producer->       5
+ 82  was consumed by consumer->       1
+ 83  was produced by producer->       3
+ 83  was consumed by consumer->       6
+ 84  was produced by producer->       1
+ 84  was consumed by consumer->       3
+ 74  was consumed by consumer->       2
+ 73  was consumed by consumer->       4
+ 85  was produced by producer->       3
+ 85  was consumed by consumer->       8
+ 86  was produced by producer->       1
+ 86  was consumed by consumer->       9
+ 87  was produced by producer->       3
+ 87  was consumed by consumer->       5
+ 88  was produced by producer->       1
+ 88  was consumed by consumer->       7
+ 89  was produced by producer->       3
+ 89  was consumed by consumer->       1
+ 90  was produced by producer->       1
+ 90  was consumed by consumer->       6
+ 91  was produced by producer->       4
+ 92  was produced by producer->       4
+ 93  was produced by producer->       4
+ 93  was consumed by consumer->       4
+ 92  was consumed by consumer->       3
+ 91  was consumed by consumer->       2
+ 94  was produced by producer->       4
+ 94  was consumed by consumer->       8
+ 95  was produced by producer->       4
+ 95  was consumed by consumer->       9
+ 96  was produced by producer->       4
+ 96  was consumed by consumer->       5
+ 97  was produced by producer->       1
+ 97  was consumed by consumer->       7
+ 98  was produced by producer->       4
+ 98  was consumed by consumer->       6
+ 99  was produced by producer->       4
+ 99  was consumed by consumer->       2
+100  was produced by producer->       4
+101  was produced by producer->       4
+102  was produced by producer->       4
+103  was produced by producer->       4
+104  was produced by producer->       1
+105  was produced by producer->       1
+Producer Thread joined:  1
+Producer Thread joined:  2
+Producer Thread joined:  3
+Producer Thread joined:  4
+Producer Thread joined:  5
+Producer Thread joined:  6
+Producer Thread joined:  7
+Consumer Thread joined:  1
+Consumer Thread joined:  2
+Consumer Thread joined:  3
+Consumer Thread joined:  4
+Consumer Thread joined:  5
+Consumer Thread joined:  6
+Consumer Thread joined:  7
+Consumer Thread joined:  8
+Consumer Thread joined:  9
+Current time: Sat Aug 10 13:28:04 2019
+
+Producer Array: | Consumer Array
+              1 | 1
+              2 | 2
+              3 | 3
+              4 | 4
+              5 | 5
+              6 | 6
+              7 | 7
+              8 | 8
+              9 | 9
+             10 | 10
+             11 | 11
+             12 | 12
+             13 | 13
+             14 | 14
+             15 | 15
+             16 | 16
+             17 | 17
+             18 | 18
+             19 | 19
+             20 | 20
+             21 | 21
+             22 | 22
+             23 | 23
+             24 | 24
+             25 | 25
+             26 | 26
+             27 | 27
+             28 | 28
+             29 | 29
+             30 | 30
+             31 | 31
+             32 | 32
+             33 | 33
+             34 | 34
+             35 | 35
+             36 | 36
+             37 | 37
+             38 | 38
+             39 | 39
+             40 | 40
+             41 | 41
+             42 | 42
+             43 | 43
+             44 | 44
+             45 | 45
+             46 | 46
+             47 | 47
+             48 | 48
+             49 | 49
+             50 | 50
+             51 | 51
+             52 | 52
+             53 | 53
+             54 | 54
+             55 | 55
+             56 | 56
+             57 | 57
+             58 | 58
+             59 | 59
+             60 | 60
+             61 | 61
+             62 | 62
+             63 | 63
+             64 | 64
+             65 | 65
+             66 | 66
+             67 | 67
+             68 | 68
+             69 | 69
+             70 | 70
+             71 | 71
+             72 | 72
+             73 | 73
+             74 | 74
+             75 | 75
+             76 | 76
+             77 | 77
+             78 | 78
+             79 | 79
+             80 | 80
+             81 | 81
+             82 | 82
+             83 | 83
+             84 | 84
+             85 | 85
+             86 | 86
+             87 | 87
+             88 | 88
+             89 | 89
+             90 | 90
+             91 | 91
+             92 | 92
+             93 | 93
+             94 | 94
+             95 | 95
+             96 | 96
+             97 | 97
+             98 | 98
+             99 | 99
+            100 | 100
+            101 | 101
+            102 | 102
+            103 | 103
+            104 | 104
+            105 | 105
+Consumer and Producer Arrays Match!
+
